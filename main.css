@@ -35,6 +35,8 @@ ol,ul, img, p{
     padding: 0px;
     overflow: hidden;
     background-color: #c400ba;
+    position: sticky;
+    top: 0px;
 
 }
 
