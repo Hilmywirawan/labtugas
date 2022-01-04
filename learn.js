@@ -66,3 +66,22 @@ function volumeBalok(panjang,lebar,t){
     return volumeBalok;
 }
 console.log('Volume Balok = ', volumeBalok(5,7,9)); // Volume Balok = 315
+
+var buah = ["durian", "jambu", "alpukat", "manggis"];
+console.log(buah[0]); // menampilkan durian
+console.log(buah[1]); // menampilkan jambu
+console.log(buah[2]); // menampilkan alpukat
+console.log(buah[3]); // menampilkan manggis
+buah[1] = "anggur"; // mengganti Jambu menjadi Anggur
+console.log(buah); // mengecek perubahan
+buah.push("mangga"); // menambah mangga di akhir Array
+console.log(buah); // mengecek perubahan
+buah.pop("mangga"); // melihat dan menghapus item dari Array
+console.log(buah); // mengecek perubahan
+console.log('Panjang Array = ', buah.length); // menghitung panjang Array
+buah.unshift("naga"); // menambah naga di awal Array
+console.log(buah); // mengecek perubahan
+buah.shift(); // menampilkan dan menghapus item awal dari array
+console.log(buah); // mengecek perubahan
+console.log(buah.sort()); // mengurutkan Array
+console.log(buah.reverse()); // membalikkan urutan Array
