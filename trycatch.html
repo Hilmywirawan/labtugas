@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        try{//digunakan untuk mencari error
+            var a="Hilmy Wirawan";//membuat variabel a
+            document.write(a);//menampilkan a
+
+
+
+        if(a == "Hilmy"){//jika a sama dengan Hilmy
+             throw "Variabel Error";//maka tampilan variable error
+        }
+
+    }catch (error){//menampilkan pesan eror jika ada yang salah di dalam variable
+            alert(error);//menampilkan pesan eror
+
+        }
+        finally{//eksekusi pesan
+            document.write("<br>Pesan Ini Akan Tetap diTampilkan");//menampilkan pesan
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         alert("Jabatan Perusahaan"); //menampilkan kalimat "Jabatan Perusahaan"
+        var a=prompt("Masukkan nama anda"); //meminta user memasukkan nama 
+        var b=prompt("Masukkan Kode Jabatan:(Pilih salah satu :manager,asisten,karyawan,CS"); //meminta user memasukkan jabatan
+
+        if (b == "managerr") { //jika menulis manager maka hasilnya true
+            document.write("Selamat Datang: ",a,"</br>");//menampilkan nama user
+            document.write("Login Sebagai = manager"); //menampilkan nama user
+        } else if (b== "asisten") {//jika menulis asisten maka hasilnya true
+            document.write("Selamat Datang: ",a,"</br>");//menampilkan nama user
+            document.write("Login Sebagai = asisten"); //menampilkan nama user
+        } else if (b== "karyawan") {//jika menulis karyawan maka hasilnya true
+            document.write("Selamat Datang: ",a,"</br>");//menampilkan nama user
+            document.write("Login Sebagai = karyawan");//menampilkan nama user 
+        } else if (b== "CS") {//jika menulis cs maka hasilnya true
+            document.write("Selamat Datang: ",a,"</br>");//menampilkan nama user
+            document.write("Login Sebagai = CS");  //menampilkan nama user 
+        } else {// jika menulis selain yang ada pada daftar maka akan menampilkan error
+            document.write("Error !")//menampilkan error
+        }
+    </script>
+</body>
+</html>

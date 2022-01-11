@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = prompt ("Masukkan merk motor");//meminta user memasukkan nama merk motor
+        switch (a) {//switch dengan kondisi variable a
+            case "honda"://user memilih honda
+                document.write("Honda new Revo X <br> CB150R <br> Supra X 125 FI <br> Supra GTR 150 <br> Honda PCX <br> Honda Vario 125 <br> Honda Vario 150")//menampilkan produk Honda jika user menginputkan kata honda
+                break;//program berhenti
+            case "yamaha"://user memilih yamaha
+                document.write("XRIDE 125 <br> FREEGO S VERSION <br> ALL NEW SOUL GT AKS <br> ALL NEW SOUL GT AKS SSS <br> MIO M3 125 <br> MIO Z <br> ALL NEW R15")//menampilkan produk yamaha jika user menginputkan kata yamaha
+                break;//program berhenti
+            case "suzuki"://user memilih suzuki
+                document.write("GSX-S150 <br> NEX II <br> GSX-R150 <br> NEX CROSSOVER <br> SATRIA F150 <br> NEW SMASH F1")//menampilkan produk suzuki jika user menginputkan kata suzuki
+                break; //program berhenti
+            default://jika user tidak memilih pilihan yang ada pada case maka akan default
+                document.write("Mohon Maaf, merk motor yang anda cari Tidak Ditemukan")//jika user memasukkan pilihan selain yang ada pada case maka akan menamplkan "Mohon Maaf, merk motor yang anda cari Tidak Ditemukan"
+                break;//program berhenti
+        }
+
+    </script>
+</body>
+</html>
